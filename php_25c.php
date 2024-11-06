@@ -7,8 +7,11 @@ Programa que escribe números aleatorios entre uno y quinientos y se para cuando
 
 $salir = false;
 
-while (!$salir){
-    $num = rand(1,500);
+while (!$salir){ //!$salir vale true 
+    $num =  rand(1,500);
     echo "$num <br>";
-    $salir = ($num %7 == 0);//el centinela vale verdadero si es multiplo de 7.
+    $salir = ($num % 7 == 0);//el centinela vale verdadero si es multiplo de 7
+    // if ($num % 7 == 0){
+    //     $salir = true;
+    // }
 }
