@@ -1,0 +1,1 @@
+<!-- Si se colocase sobre un tablero de ajedrez, lo suficientemente grnade, un grano de trigo en el primer casillero, dos en el segundo, cuatro en el tercero y asi sucesivamente, doblando la cantidad de granos en cada casilla ¿cuantos granos de trigo habria en el tablero al final? -->

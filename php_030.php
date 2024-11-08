@@ -1,0 +1,2 @@
+<!-- escribe los 100 primeros numeros primos  -->
+<!-- Si un numero es divisible por un numero mayor que su mitad, obligatoriamente tambien lo es por otro numero menor que su mitad. Por lo tanto si un numero es primo. basta con comprobar hasta la mitad de sus divisores -->
