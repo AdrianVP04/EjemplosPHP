@@ -10,7 +10,7 @@ $resultado = 0;
 //Suma 
 $resultado = $a + $b;
 echo "$a + $b es $resultado <br>";
-echo '$a + $b es $resultado';
+echo '$a + $b es $resultado <br>';
 
 //Resta
 $resultado = $a - $b;

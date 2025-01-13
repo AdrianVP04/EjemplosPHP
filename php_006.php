@@ -1,9 +1,9 @@
 <?php
-    //define("CIUDAD", "Madrid"); //La variable ciudad tendra el valor Madrid.
+    //define("CIUDAD", "Madrid"); // La constante CIUDAD tendría el valor "Madrid"
 
-    if (defined("CIUDAD")){
-        print("La ciudad es: "+ .CIUDAD)
-    }else{
-        print("La constante ciudad no esta definida")
+    if (defined("CIUDAD")) {
+        print("La ciudad es: " . CIUDAD); // Concatenamos la constante con la cadena
+    } else {
+        print("La constante ciudad no está definida");
     }
-
+?>

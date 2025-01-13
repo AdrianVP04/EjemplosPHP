@@ -1,1 +1,8 @@
-<!-- Si se colocase sobre un tablero de ajedrez, lo suficientemente grnade, un grano de trigo en el primer casillero, dos en el segundo, cuatro en el tercero y asi sucesivamente, doblando la cantidad de granos en cada casilla ¿cuantos granos de trigo habria en el tablero al final? -->
+<?php
+    // Calcular el número total de granos en el tablero de ajedrez
+    $total_granos = pow(2, 64) - 1; // 2^64 - 1
+    
+    // Mostrar el resultado
+    echo "El número total de granos de trigo en el tablero de ajedrez es: ";
+    echo number_format($total_granos, 0, '.', ','); // Formateamos el número con comas
+?>

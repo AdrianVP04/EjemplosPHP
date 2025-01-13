@@ -11,7 +11,7 @@
 
     echo "<br>";
 
-    $var2 = null;
+    
     if(isset($var2)){
         print("La variable var2 esta inicializada y no es null. Su valor es: ".$var2);
     }else{
